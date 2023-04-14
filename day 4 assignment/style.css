@@ -1,0 +1,16 @@
+.square {
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    position: absolute;
+    animation: move-square 2s linear infinite;
+    }
+    @keyframes move-square {
+        0%{
+            left: 0%;
+        }
+        100%{
+            left: 100%;
+        }
+    }
